@@ -1,15 +1,20 @@
-using UnityEngine;
+锘縰sing UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelGoal : MonoBehaviour
 {
-    [Header("Configura珲es")]
+    [Header("Configura莽玫es")]
     public AudioClip victorySound;
     public GameObject completionEffect;
 
-    [Header("Anima玢o")]
+    [Header("Anima莽茫o")]
     public bool floatAnimation = true;
     public float floatSpeed = 2f;
     public float floatHeight = 0.2f;
+
+    [Header("Cena de Vit贸ria")]
+    public string victorySceneName = "VictoryScreen";  // Nome da cena de vit贸ria
+    public bool showMessage = true;                     // Mostrar mensagem na tela
 
     private Vector3 startPosition;
     private bool levelCompleted = false;
@@ -35,11 +40,45 @@ public class LevelGoal : MonoBehaviour
 
         levelCompleted = true;
 
+        // Efeito visual
         if (completionEffect != null)
             Instantiate(completionEffect, transform.position, Quaternion.identity);
 
-        if (GameManager.Instance != null)
-            GameManager.Instance.LoadNextLevel();
+        // Toca som de vit贸ria
+        if (victorySound != null)
+            AudioSource.PlayClipAtPoint(victorySound, transform.position);
+
+        // 馃専 MOSTRA MENSAGEM DE FIM DE JOGO
+        if (showMessage)
+        {
+            // Verifica se 茅 o 煤ltimo n铆vel
+            int currentIndex = SceneManager.GetActiveScene().buildIndex;
+            int totalScenes = SceneManager.sceneCountInBuildSettings;
+
+            if (currentIndex >= totalScenes - 1)
+            {
+                // 脷LTIMO N脥VEL! Mostra mensagem de "Voc锚 Venceu!"
+                Debug.Log("馃弳 PARAB脡NS! VOC脢 COMPLETOU O JOGO! 馃弳");
+                
+                // Se tiver um painel de vit贸ria no HUD, mostra
+                if (HUDManager.Instance != null)
+                {
+                    HUDManager.Instance.ShowVictoryMessage();
+                }
+                
+                // Opcional: carrega uma cena de vit贸ria
+                if (!string.IsNullOrEmpty(victorySceneName))
+                {
+                    SceneManager.LoadScene(victorySceneName);
+                }
+            }
+            else
+            {
+                // Avan莽a para o pr贸ximo n铆vel
+                if (GameManager.Instance != null)
+                    GameManager.Instance.LoadNextLevel();
+            }
+        }
     }
 
     private void OnDrawGizmos()

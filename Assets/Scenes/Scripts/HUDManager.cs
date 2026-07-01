@@ -1,22 +1,21 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Se não tiver TextMeshPro, troque TMP_Text por Text
+using TMPro;
 
-/// <summary>
-/// Gerencia a interface do jogador (HUD).
-/// Coloque esse script em um GameObject vazio chamado "HUDManager" dentro do Canvas.
-/// </summary>
 public class HUDManager : MonoBehaviour
 {
     public static HUDManager Instance;
 
     [Header("Textos do HUD")]
-    public TMP_Text livesText;        // Ex.: "Vidas: 3"
-    public TMP_Text scoreText;        // Ex.: "Pontos: 150"
-    public TMP_Text collectiblesText; // Ex.: "Gemas: 5"
+    public TMP_Text livesText;
+    public TMP_Text scoreText;
+    public TMP_Text collectiblesText;
 
     [Header("Telas")]
-    public GameObject gameOverPanel;  // Painel de Game Over (pode deixar vazio por agora)
+    public GameObject gameOverPanel;     // Painel de Game Over
+    public GameObject victoryPanel;      // 🌟 Painel de Vitória (opcional)
+    public TMP_Text gameOverMessage;     // Mensagem de Game Over
+    public TMP_Text victoryMessage;      // 🌟 Mensagem de Vitória
 
     void Awake()
     {
@@ -28,11 +27,11 @@ public class HUDManager : MonoBehaviour
 
     void Start()
     {
-        // Garante que o painel de Game Over começa oculto
         if (gameOverPanel != null)
             gameOverPanel.SetActive(false);
+        if (victoryPanel != null)
+            victoryPanel.SetActive(false);
 
-        // Inicializa os textos
         UpdateLives(3);
         UpdateScore(0);
         UpdateCollectibles(0);
@@ -56,9 +55,32 @@ public class HUDManager : MonoBehaviour
             collectiblesText.text = "Gemas: " + amount;
     }
 
+    // 🌟 MOSTRA GAME OVER
     public void ShowGameOver()
     {
         if (gameOverPanel != null)
+        {
             gameOverPanel.SetActive(true);
+            if (gameOverMessage != null)
+                gameOverMessage.text = "💀 GAME OVER 💀\nPressione R para reiniciar";
+        }
+    }
+
+    // 🌟 MOSTRA MENSAGEM DE VITÓRIA
+    public void ShowVictoryMessage()
+    {
+        if (victoryPanel != null)
+        {
+            victoryPanel.SetActive(true);
+            if (victoryMessage != null)
+                victoryMessage.text = "🏆 PARABÉNS!\nVocê completou o jogo! 🏆";
+        }
+        else
+        {
+            // Se não tiver painel, mostra no console e no texto de score
+            Debug.Log("🏆 PARABÉNS! VOCÊ VENCEU! 🏆");
+            if (scoreText != null)
+                scoreText.text = "🏆 VOCÊ VENCEU! 🏆";
+        }
     }
 }

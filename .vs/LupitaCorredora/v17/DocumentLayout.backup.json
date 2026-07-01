@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\Hudmanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\Hudmanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\DeathZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\DeathZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\LevelGoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\LevelGoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\HitBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\HitBox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Sprites\\Sprites\\Enemies\\EnemyPatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\DeathZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\DeathZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\VictoryScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Scripts\\VictoryScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\Collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,37 +46,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Hudmanager1.cs",
+              "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\Hudmanager1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Hudmanager1.cs",
+              "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\Hudmanager1.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\Hudmanager1.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T03:30:12.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VictoryScreen.cs",
+              "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\VictoryScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\VictoryScreen.cs",
+              "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\VictoryScreen.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\VictoryScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T00:49:40.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HitBox.cs",
+              "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\HitBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\HitBox.cs",
+              "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\HitBox.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scripts\\HitBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T23:25:04.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LevelGoal.cs",
               "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\LevelGoal.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\LevelGoal.cs",
               "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\LevelGoal.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\LevelGoal.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwDwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T00:21:29.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Sprites\\Sprites\\Enemies\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Sprites\\Sprites\\Enemies\\EnemyPatrol.cs",
               "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Sprites\\Sprites\\Enemies\\EnemyPatrol.cs",
               "RelativeToolTip": "Assets\\Scenes\\Sprites\\Sprites\\Enemies\\EnemyPatrol.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAIBJwDYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T23:44:28.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Collectible.cs",
               "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\Collectible.cs",
@@ -72,51 +126,45 @@
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\Collectible.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T19:55:32.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "WhenOpened": "2026-06-14T19:55:32.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DeathZone.cs",
               "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\DeathZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\DeathZone.cs",
               "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\DeathZone.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\DeathZone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T07:13:38.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T06:08:49.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\fecaf\\Quinto semestre fecaf\\Game Development\\Projetos\\LupitaCorredora\\Assets\\Scenes\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwLUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwKUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T04:39:56.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T04:39:56.764Z"
             }
           ]
         }

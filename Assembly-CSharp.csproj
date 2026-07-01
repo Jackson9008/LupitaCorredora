@@ -68,12 +68,15 @@
     <Compile Include="Assets\Scenes\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\ParallaxBackground.cs" />
     <Compile Include="Assets\Scenes\Scripts\HitBox.cs" />
-    <Compile Include="Assets\Scenes\Scripts\HUDManager.cs" />
+    <Compile Include="Assets\Scenes\Scripts\GameOverButtons.cs" />
     <Compile Include="Assets\Scenes\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scenes\Scripts\Hazard.cs" />
     <Compile Include="Assets\Scenes\Scripts\LevelGoal.cs" />
     <Compile Include="Assets\Scenes\Sprites\Sprites\Enemies\EnemyPatrol.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Hudmanager.cs" />
+    <Compile Include="Assets\Scenes\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\VictoryButtons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
