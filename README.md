@@ -15,14 +15,23 @@ A narrativa acompanha uma exploradora que percorre diferentes biomas em busca de
 
 ## 🖼️ Screenshots
 
+### Tela Menu 
+![Menu](screenshots/tela_menu.png)
+
 ### Fase 1 — Floresta (Tutorial)
-![Fase 1](Assets/Scenes/Screenshots/fase1.png)
+![Fase 1](screenshots/fase1.png)
 
 ### Fase 2 — Deserto (Intermediário)
-![Fase 2](Assets/Scenes/Screenshots/fase2.png)
+![Fase 1](screenshots/fase2.png)
 
 ### Fase 3 — Deserto Avançado (Difícil)
-![Fase 3](Assets/Scenes/Screenshots/fase3.png)
+![Fase 1](screenshots/fase3.png)
+
+### Tela Vitória
+![Vitória](screenshots/tela_vitoria.png)
+
+### Game Over
+![Fim de Jogo](screenshots/tela_game_over.png)
 
 ---
 
@@ -134,9 +143,12 @@ Assets/
 │   └── SFX/
 ├── Prefabs/             # Objetos pré-configurados
 ├── Scenes/              # Cenas do jogo
-│   ├── SampleScene      # Fase 1
+│   ├── Menu             # Inicial
+│   ├── Level_01         # Fase 1
 │   ├── Level_02         # Fase 2
-│   └── Level_03         # Fase 3
+│   ├── Level_03         # Fase 3
+│   ├── Vitória          # Fase final
+│   └── Game Over        # Tente novamente
 ├── Scripts/             # Código C#
 └── Sprites/             # Imagens e spritesheets
 ```
@@ -145,8 +157,8 @@ Assets/
 
 ## 👩‍💻 Desenvolvido por
 
-**[Jackson Sousa]**  
-Curso: [Analise e Desenvolvimento de Sistemas]  
+**Jackson Sousa**  
+Curso: Analise e Desenvolvimento de Sistemas  
 Disciplina: Game Development  
 Instituição: UniFECAF  
 Ano: 2026
